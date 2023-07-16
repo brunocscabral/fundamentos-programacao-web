@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR" >
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Trabalho de Fundamentos da Programação Web - Portfólio pessoal - CV online">
+        <meta name="author" content="Bruno C. de S. Cabral">
+        <link rel="stylesheet" href="css/layout-base.css" />
+        <link rel="stylesheet" href="css/contato.css" />
+        <title>Portfólio pessoal - CV online</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Titulo do projeto -->
+            <h1>Portfólio pessoal - CV online</h1>
+            
+            <!-- Menu principal -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Sobre mim">Sobre mim</a></li>
+                    <li><a href="formacao-educacional-e-idiomas.html">Formação educacional e idiomas</a></li>
+                    <li><a href="portifolio.html">Portfólio</a></li>
+                    <li><span class="menu-ativo">Contato</span></li>
+                </ul>                
+            </nav>
+        </header>
+
+        <div class="conteudo">
+            <div class="container">
+                <!-- Titulo da página -->
+                <h2>Contato</h2>
+
+                <!-- Formulário -->
+                <form name="form-contato" action="" method="post">
+                    <div>
+                        <label for="assunto">Nome:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" >
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" name="assunto" id="assunto" required>
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" required></textarea>
+                    </div>
+                    <div class="div-btn-enviar">
+                        <input type="submit" value="Enviar" />    
+                    </div>
+                </form>            
+            </div>
+        </div>
+
+        <footer>
+            <p>Trabalho de <b>Fundamentos da Programação Web</b></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/* Css usado em todas as páginas */
+body {
+    padding: 0;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #7f6de9;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+header {
+    background-color: #7f6de9;
+    text-align: center;
+    padding: 10px 0 2px 0;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+h1 {
+    color: #fff;
+    margin: 0;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "|";
+    padding: 10px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.menu-ativo {
+    color: #fff899;
+    font-weight: bold;
+}
+
+.conteudo {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Limitador do tamanho da tela ser usado pelo conteudo da página*/
+.container {
+    width: 600px;
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+    border-top: 1px solid #eeeeee;
+}

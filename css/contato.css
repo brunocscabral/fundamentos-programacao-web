@@ -1,0 +1,30 @@
+/* Css usado exclusivamente para o formulário de contato */
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="submit"] {
+    font-weight: bold;
+    margin: 15px 0;
+    width: auto;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+}
+
+form[name="form-contato"] div {
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.div-btn-enviar {
+    width: -webkit-fill-available;
+}
